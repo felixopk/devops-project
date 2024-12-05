@@ -17,7 +17,7 @@ jobs:
     - run: npm install
     - run: npm test
     - name: Build Docker Image
-      run: docker build -t yourusername/devops-app .
+      run: docker build -t felixopk101/devops-app .
     - name: Push Docker Image
       run: |
         echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
