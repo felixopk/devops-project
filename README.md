@@ -1,2 +1,2 @@
 # devops-project.
-This project seeks 
+This project seeks to advance
